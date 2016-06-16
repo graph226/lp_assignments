@@ -17,6 +17,6 @@ while($line = <FIN>){
 
 foreach $tweet (@tweets) {
   if ($tweet =~ /^【在学生対象】/) {
-    print "$tweet\n"
+    print "$tweet\n";
   }
 }
